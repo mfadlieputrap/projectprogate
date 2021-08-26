@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Style untuk header dan navbar*/
+
+header{
+    display: inline;
+}
+.nav{;
+    background-color: rgba(0,0,0,0.4);
+    top: 0;
+    position: fixed;
+    z-index: 9999;
+    max-height: 90px;
+    width: 100%;
+    padding: 0 80px;
+}
+
+.navbar-logo{
+    float: left;
+    line-height: 90px;
+}
+
+.navbar-logo a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    display: inline-block;
+    float: left;
+}
+
+.navbar-logo a img{
+    position: relative;
+    top: 15px;
+    margin-right: 10px;
+}
+
+.navbar-list{
+    display: flex;
+    float: right;
+    line-height: 90px;
+    text-align: center;
+}
+/*.navbar-list ul{
+    margin: 0;
+    display: flex;
+    width: 100%;
+    padding: 0;
+}
+
+.navbar-list {
+    list-style: none;
+    display: inline-block;
+}*/
+
+
+.navbar-list a{
+    flex-grow: 1;
+    text-decoration: none;
+    color:white;
+    padding: 0 30px;
+}
+
+.navbar-list a:hover{
+    color: white;
+    background-color: rgba(255,255,255,0.3);
+    transition: 0.3s;
+}
+
+.nav .menu-icon{
+    color: white;
+    float: right;
+    font-size: 35px;
+    display: none;
+    line-height:  90px;
+}
+
+
+/*Style untuk banner*/
+
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../image/Tempat-Tinggal-Terbaik-di-Bali.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 0;
+}
+.content-banner{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.content-banner h2{
+    font-family: 'dancing script', cursive;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    margin: 20px 0 50px;
+}
+
+.content-banner p{
+    font-size: 20px;
+    padding: 20px 10px;
+    color: aliceblue;
+}
+
+.content-banner .button{
+    background:rgba(77, 77, 77, 0.755);
+    display: inline-block;
+    color: white;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: 0 2px 0 gray;
+    position: relative;
+}
+
+.button:active{
+    box-shadow: none;
+    top: 2px;
+}
+.button:hover{
+    background-color: rgba(77,77,77,1) ;
+}
+
+/* STYLE UNTUK CONTENT */
+.content-wrapper{
+    margin: 200px auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.content{
+    width: 50%;
+    text-align: center;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.content img{
+    width: 100%;
+    object-fit: cover;
+    min-width: 100px;
+}
+
+.gambar-kiri img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.gambar-kanan img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.content-right {
+    padding: 10px;
+    margin: 0 100px;
+}
+
+.content-left {
+    padding: 10px;
+    margin: 0 100px;
+}
+
+.content p{
+    font-size: 40px;
+    display: inline-block;
+    text-align: left;
+}
+
+/*Style untuk footer*/
+.container{
+    background-color: #2d2d2d;
+    height: 120px;
+    padding: 0 100px;
+    text-align: center;
+}
+
+.footer-logo{
+    float: left;
+    line-height: 120px;
+}
+.footer-logo img{
+    position: relative;
+    top: 20px;
+    margin-right: 10px;
+}
+.footer-list{
+    float: right;
+}
+.container span{
+    line-height: 120px;
+    color: white;
+}
+.footer-logo a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    display: inline-block;
+    float: left;
+}
+
+.footer-list ul{
+    margin: 0;
+}
+
+.footer-list ul li{
+    list-style: none;
+    margin: 11px 0 0 0;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    color:  white;
+    display: block;
+}
+
